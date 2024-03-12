@@ -38,8 +38,8 @@ pub fn vec_mod_test() {
     float.absolute_value(res.x -. 0.1) <. float_threshold
     || float.absolute_value(res.y) <. float_threshold
   {
-    False -> Nil
-    True -> should.fail()
+    True -> Nil
+    False -> should.fail()
   }
 }
 
@@ -59,12 +59,12 @@ pub fn vec_length_test() {
   |> should.equal(5.0)
 }
 
-pub fn normalize() {
+pub fn vec_normalize_test() {
   vector.normalize(Vec2(3.0, 4.0))
   |> should.equal(Vec2(0.6, 0.8))
 }
 
-pub fn resize() {
+pub fn vec_resize_test() {
   vector.resize(Vec2(1.0, 0.0), 4.0)
   |> should.equal(Vec2(4.0, 0.0))
 }
