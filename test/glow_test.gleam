@@ -1,7 +1,7 @@
 import gleam/float
 import gleeunit
 import gleeunit/should
-import types/vector.{Vec2}
+import glow/types/vector.{Vec2}
 
 const float_threshold = 1.0e-6
 

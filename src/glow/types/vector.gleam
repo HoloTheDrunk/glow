@@ -2,7 +2,7 @@
 import gleam/float
 import gleam/result
 // project
-import utils.{fmod}
+import glow/utils.{fmod}
 
 pub type Vector {
   Vec2(x: Float, y: Float)
