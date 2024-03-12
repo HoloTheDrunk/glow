@@ -1,20 +1,20 @@
-# glam
+# glow
 
-[![Package Version](https://img.shields.io/hexpm/v/glam)](https://hex.pm/packages/glam)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/glam/)
+[![Package Version](https://img.shields.io/hexpm/v/glam)](https://hex.pm/packages/glow)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/glow/)
 
 ```sh
-gleam add glam
+gleam add glow
 ```
 ```gleam
-import glam
+import glow
 
 pub fn main() {
   // TODO: An example of the project in use
 }
 ```
 
-Further documentation can be found at <https://hexdocs.pm/glam>.
+Further documentation can be found at <https://hexdocs.pm/glow>.
 
 ## Development
 
